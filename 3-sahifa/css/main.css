@@ -1,0 +1,369 @@
+@font-face {
+    font-style: normal;
+    font-weight: 500;
+    font-family: 'Rubik' , sans-serif;
+    src: url(../fonts/rubik-v20-latin_cyrillic-500.ttf);
+}
+@font-face {
+    font-style: normal;
+    font-weight: 400;
+    font-family: 'Rubik' , sans-serif;
+    src: url(../fonts/rubik-v20-latin_cyrillic-regular.ttf);
+}
+@font-face {
+    font-style: normal;
+    font-weight: 700;
+    font-family: 'Rubik' , sans-serif;
+    src: url(../fonts/rubik-v20-latin_cyrillic-700.ttf);
+}
+@font-face {
+    font-family: 'Roboto',sans-serif;
+    font-weight: 500;
+    src: url(../fonts/roboto-v30-latin_cyrillic-italic.ttf);
+    src: url(../fonts/rubik-v20-latin_cyrillic-500.ttf);
+}
+
+
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    padding: 0;
+    overflow: hidden;
+    border: 0;
+    clip: rect(0 0 0 0)
+  }
+
+header {
+    background-color: #f6f6f9;
+    padding-top: 43px;
+    width: 100%;
+    
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    margin: 0 auto;
+    padding: 0 20px;
+    max-width: 1240px;
+}
+
+/* Header */
+.header_sec {
+    display: flex;
+    align-items: center;
+}
+
+.list {
+    list-style: none;
+    display: flex;
+    margin-right: auto;
+}
+
+.items {
+    font-family: 'Rubik';
+    font-style: normal;
+    color: #aaa2a2;
+    display: flex;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+    padding: 0px 30px;
+}
+
+.icons {
+    color: #285193;
+    padding: 0px 2px;
+}
+.poisk{
+    width: 38px;
+    height: 40px;
+    background-color: white;
+    border-radius: 5px;
+    margin-right: 20px;
+}
+.ruu{
+    border-radius: 18px;
+    margin-right: 5px;
+}
+
+.join {
+    background-color: #37AEE2;
+    display: flex;
+    text-align: center;
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    border-radius: 5px;
+    margin-left: 25px;
+}
+
+.join_tg {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    color: #FFFFFF;
+    height: 40px;
+    width: 146px;
+    border-radius: 5px;
+}
+
+.svg_tg {
+    margin-right: 7px;
+}
+.nav_list {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    padding-top: 10px;
+}
+.nav_link {
+    text-decoration: none;
+    color: #515151;
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 19px;
+    line-height: 23px;
+}
+.nav {
+    
+    background-color: #FFFFFF;
+    max-width: 1200px;
+    height: 40px;
+}
+.nav_items + .nav_items{
+    margin-left: 25px;
+
+}
+
+.banner {
+    margin-top: 18px;
+    margin-bottom: 25px;
+}
+.selector{
+    margin-top: 90px;
+    padding-top: 13px;
+    width:800px ;
+    border-bottom: 2px solid #EBEBEB;
+}
+.sections1{
+    display: flex;
+    max-width: 1200px;
+    
+}
+.selector_text{
+    margin-top: 36px;
+    margin-bottom: 16px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 21px;
+    color: #000000;
+}
+.heshtag{
+    word-spacing: 10px;
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    color: #28508E;
+}
+.News1{
+
+    width: 380px;
+    margin-right: 20px;
+}
+.News1-1{
+    margin-right: 20px;
+    width: 380px;
+    margin-bottom: 17px;
+}
+
+.news_p{
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 20px;
+    color: #202020;
+}
+.main2{
+    max-width: 1200px;
+    display: flex;
+    align-items: center;
+    margin-top: 16px;
+    margin-bottom: 40px;
+    
+}
+.main2 > h2{
+    font-family: 'Rubik';
+    font-style: normal;
+    font-size: 20px;
+    line-height: 24px;
+    color: #000000;
+}
+.sec2_h2{
+    margin-top: 16px;
+}
+/* Footer */
+footer{ 
+    padding: 0;
+    background-color: #295093;
+}
+.footer_sec1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 1200px;
+    margin-top: 38px;
+    padding-top: 18px;
+    padding-bottom: 20px;
+    border-bottom: 3px solid #133C82;;
+}
+.footer_img{
+    margin-right: 260px;
+}
+.footer_tg{
+    width: 132px;
+    height: 38px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    color: #295093;
+    text-decoration: none;
+    border-radius: 5px;
+    background-color: white;
+}
+
+.footer_svg{
+    margin-right: 6px;
+}
+.footer_sec2{
+    display: inline-block;
+    width: 360px;
+    height: 121px;
+    /* margin-left: 120px; */
+    
+    
+}
+.footet_sec_text1{
+
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    color: #FFFFFF;
+}
+.footer_p{
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    color: #FFFFFF;
+}
+.footer_sec3{
+    margin-left: 111px;
+    width: 163;
+    height: 106;
+    display: inline-block;
+    line-height: 25px;
+    
+}
+.footer_sec4{
+    width: 170px;
+    height: 106;
+    margin-left:115px ;
+    display: inline-block;
+    margin-bottom: 60px;
+    line-height: 25px;
+    
+}
+.footer_link{ 
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    text-decoration: none;
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    color: #FFFFFF;
+    
+}
+.footer_section2{
+    display: flex;
+    margin-top: 12px;
+    max-width: 1200px;
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.recomended{
+    margin-top: 20px;
+    padding:20px;
+    width: 386px;
+    
+    
+}
+.rec_news{
+    background-color: #F6F6F9;
+    border-radius: 5px;
+    padding: 16px;
+    margin-bottom:20px ;
+
+}
+.rec_div {
+    height: 120px;
+    margin-top: 6px;
+    
+    border-bottom: 4px solid #E4E4E4;
+    
+}
+
+.rec_div p{
+    margin-top: 20px;
+    margin-bottom: 11px;
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 20px;
+    color: #202020;
+
+}
+.rec_img{
+    margin-left: -20px;
+}
